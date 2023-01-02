@@ -1,0 +1,56 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ } 
+
+ .div1 { 
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: absolute;
+ } 
+
+.div2{
+
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    animation-name: name;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: 100;
+
+
+}
+
+@keyframes name {
+    0%{
+        background-color: blue;
+        left: 0px; top: 0px;
+    }
+
+    25% {
+        background-color: red;
+        left: 150px; top: 0px;
+    }
+
+    50% {
+        background-color: black;
+        left: 150px; top: 150px;
+    }
+
+    75%{
+        background-color: deeppink;
+        left: 0px; top: 150px;
+    }
+    100% {
+        background-color: cadetblue;
+        left: 0px; top: 0px;
+    }
+}
+
+
+
